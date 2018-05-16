@@ -1,0 +1,171 @@
+{
+
+"Vuurwapen":[   
+
+    {
+        "Land": "Nederland",
+        "Doden": 250
+    },
+{
+        "Land": "Amerika",
+        "Doden": 11894
+},
+    {
+        "Land": "Rusland",
+        "Doden": 6732
+    },
+
+    {   
+        "Land": "Canada",
+        "Doden": 3537
+    },
+
+    {
+        "Land": "China",
+        "Doden": 3439
+    },
+
+   {    "Land": "Duitsland",
+        "Doden": 890
+   },
+
+   {
+        "Land": "Australië",
+        "Doden": 2540
+   },
+
+   {
+        "Land": "Engeland",
+        "Doden": 1250
+},
+{
+        "Land": "Ijsland",
+        "Doden": 1894
+},
+{
+        "Land": "Zuid-Afrika",
+        "Doden": 732
+},
+
+{     
+        "Land": "Frankrijk",
+        "Doden": 537
+},
+
+{
+        "Land": "Indonesië",
+        "Doden": 2439
+},
+
+{       "Land": "Oeganda",
+        "Doden": 990
+},
+
+{
+        "Land": "Bulgarije",
+        "Doden": 540
+},
+
+{
+       "Land": "Colombia",
+       "Doden": 250
+},
+{
+       "Land": "Cuba",
+       "Doden": 1894
+},
+{
+       "Land": "Chili",
+       "Doden": 9732
+},
+
+{   
+       "Land": "Estland",
+       "Doden": 3537
+},
+
+{
+       "Land": "Gabon",
+       "Doden": 39
+},
+
+{      "Land": "Hongarije",
+       "Doden": 90
+},
+
+{
+       "Land": "Ierland",
+       "Doden": 240
+},
+
+{
+      "Land": "Japan",
+      "Doden": 1250
+},
+{
+      "Land": "Kameroen",
+      "Doden": 1894
+},
+{
+      "Land": "Kroatië",
+      "Doden": 732
+},
+
+{     
+      "Land": "Liechtenstein",
+      "Doden": 37
+},
+
+{
+      "Land": "Mongolië",
+      "Doden": 439
+},
+
+{     "Land": "Noord-Korea",
+      "Doden": 990
+},
+
+{
+     "Land": "Mexico",
+     "Doden": 1540
+
+     
+},
+
+{
+     "Land": "Groenland",
+     "Doden": 1740
+
+     
+},
+
+{
+     "Land": " Mexico",
+     "Doden": 1540
+
+     
+},
+
+{
+     "Land": " Mexico",
+     "Doden": 1540
+
+     
+},
+
+{
+     "Land": " Mexico",
+     "Doden": 1540
+
+     
+},
+
+{
+     "Land": " Mexico",
+     "Doden": 1540
+
+     
+}
+
+]
+}

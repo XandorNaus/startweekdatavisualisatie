@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="data.css" />
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+      });
+      google.charts.setOnLoadCallback(drawMarkersMap);
+
+      function drawMarkersMap() {
+          
+          
+         $.ajax({
+                dataType: "json",
+                url: "data.json",
+                success: success,
+                error: function(err,a,b) {
+                    console.log(err,a,b);
+                }
+            });
+
+            function success(data) {
+                console.log(data);
+
+                var tableData = [
+                    ['Land', 'Doden']
+                ];
+                console.log(tableData);
+                data.Vuurwapen.forEach(function(row) {
+                    tableData.push([row.Land, row.Doden]);
+
+
+                });
+
+                console.log(tableData);
+
+                var data = google.visualization.arrayToDataTable(tableData);
+
+        var options = {
+
+        backgroundColor: '#6E9DEC',
+
+        };
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+        chart.draw(data, options);
+      }
+      }
+
+    </script>
+  </head>
+  <body>
+      <h1>Datavisualisatie</h1>
+      <h3>Sterfgevallen door Vuurwapens</h3>
+    <div id="regions_div" style="width: 1400px; height: 600px;"></div>
+  </body>
+</html>
